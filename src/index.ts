@@ -44,7 +44,7 @@ class EChartService extends Service {
       textStyle: {
         fontFamily: this.config.font
       },
-      ...options
+      ...options,
     })
     return {
       chart,
